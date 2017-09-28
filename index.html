@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>vue-resource-lesson</title>
+  </head>
+  <body>
+    <h1>Заголовок в Body</h1>
+    <div id="app">
+      <h1>Заголовок в App</h1>
+      <div class="posts" v-for="post in posts">
+        <span>{{ post.id }}</span>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.body }}</p>
+      </div>
+    </div>
+    <script src="/dist/build.js"></script>
+  </body>
+</html>
